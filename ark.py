@@ -57,7 +57,7 @@ def main():
         print("{:d}\t{:35s}\t{:8s}\t{:s}%".format(count, item.company, item.ticker, item.weight))
         count += 1
 
-    print("\n---- Completed ----\n")
+    print("\n---- UPDATE COMPLETED ----\n")
     return
 
 if __name__ == "__main__":

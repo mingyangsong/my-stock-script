@@ -4,9 +4,9 @@
 import cloudscraper
 
 def get_web_content(url):
-    print("---- Start Downloading ----")
+    print("---- START DOWNLOADING ----")
     scraper = cloudscraper.create_scraper()
     result = scraper.get(url).text
-    print("---- End Downloading ----\n")
+    print("---- END DOWNLOADING ----\n")
 
     return result
